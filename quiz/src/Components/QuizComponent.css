@@ -1,0 +1,102 @@
+/*  
+ #content{
+    border: 2px solid white;
+    position: relative;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(75, 57, 109);
+    width: 90vw;
+    height: 100vh;
+    
+    
+}  */
+body{
+    justify-content: center;
+}
+
+.quiz {
+    border: 2px solid black;
+    position: relative;
+    right: 40px;
+    margin-top: 100px;
+    margin:10px;
+    background-color: #ffffff;
+    margin-left: 100px;
+
+}
+
+.counter{
+    margin-top: 50px;
+    margin-right: 900px;
+    color: black;
+    font-weight: bolder;
+}
+
+.options{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 120px;
+    bottom: 60px;
+}
+
+.opt{
+    background-color: #1ea1f1;
+    width: 300px;
+    max-width: 80vw;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.cta button{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.prev{
+    background-color: #88c3e8;
+    position: relative;
+    bottom: 20px;
+}
+
+.next{
+    background-color: rgb(158, 233, 166);
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+.quit{
+    background-color: rgb(255, 164, 164);
+    margin-left: 10px;
+    position: relative;
+    bottom: 20px;
+}
+
+h2{
+    margin-top: 70px;
+    color: black;
+}
+
+.question{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+}  
+
+h2{
+    position: relative;
+    bottom: 50px;
+}
